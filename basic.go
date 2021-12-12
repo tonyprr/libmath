@@ -7,3 +7,11 @@ func Sum(values ...int) int {
 	}
 	return result
 }
+
+func Multiply(values ...int) int {
+	result := 1
+	for _, value := range values {
+		result *= value
+	}
+	return result
+}
