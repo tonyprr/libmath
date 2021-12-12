@@ -1,6 +1,6 @@
 package basic
 
-func sum(values ...int) int {
+func Sum(values ...int) int {
 	result := 0
 	for _, value := range values {
 		result += value
